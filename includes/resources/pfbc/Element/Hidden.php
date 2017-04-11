@@ -21,7 +21,7 @@ class Element_Hidden extends Element {
 			$properties = array();
 		}
 
-		if ( ! empty( $value ) ) {
+		if ( ! empty( $value )  or $value == 0 ) {
 			$properties["value"] = $value;
 		}
 
